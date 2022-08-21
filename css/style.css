@@ -1,6 +1,4 @@
-#html{
-  min-height: 100%;
-}
+
 body {
   background-color: black;
   margin-left: 0;
@@ -8,7 +6,6 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 100%;
 }
 
 h1{

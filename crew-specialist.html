@@ -16,23 +16,27 @@
   <div class="navbar-div">
     <img class= "navbar-logo" src="assets/shared/logo.svg" alt="logo">
     <hr class="navbar-bar">
-    <nav class="navbar-principal">
-      <ul>
-        <li class="li-navbar"><a class="navbar" href="index.html">00 HOME</a></li>
-        <li class="li-navbar"><a class="navbar" href="destination-moon.html">01 DESTINATION</a></li>
-        <li class="li-navbar"><a class="onsite navbar" href="#">02 CREW</a></li>
-        <li class="li-navbar"><a class="navbar" href="#">03 TECHNOLOGY</a></li>
-      </ul>
+    <label for="" class = "menu-wrap">
+      <input type="checkbox" class= "checker">
+      <img src="assets/shared/icon-hamburger.svg" alt="hamburgers" class= "open">
+      <img src="assets/shared/icon-close.svg" alt="cross" class="close">
+      <nav class= "navbar-principal">
+        <ul class = "navbar-ul">
+          <li><a class="navbar" href="index.html"><span>00</span> HOME</a></li>
+          <li><a class="navbar" href="destination-moon.html"><span>01</span> DESTINATION</a></li>
+          <li><a class="onsite navbar" href="crew-commander.html"><span>02</span> CREW</a></li>
+          <li><a class="navbar" href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+        </ul>
+      </nav>
+    </label>
   </div>
-  <div class="planet-div">
+  <div class="crew-main">
     <div class="planet-div-1">
       <h5 class="subtittle"> <span class="number">02</span> MEET YOUR CREW</h5>
-      <h4>Mission Specialist</h4>
-      <h3>Mark Shuttleworth</h3>
-      <p class= "body-text crew-text">   Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind
-        the Linux-based Ubuntu operating system. Shuttleworth became the first South
-        African to travel to space as a space tourist.
-      </p>
+    </div>
+    <div class="crew-div-1">
+      <img src="assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth">
+      <hr>
     </div>
     <div class="crew-div-2">
       <ul class = "slider">
@@ -50,9 +54,14 @@
         </form>
       </ul>
     </div>
-  </div>
-  <div class="crew-div-1">
-    <img src="assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth">
+    <article class="article">
+      <h4>Mission Specialist</h4>
+      <h3>Mark Shuttleworth</h3>
+      <p class= "body-text planet-text">   Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind
+        the Linux-based Ubuntu operating system. Shuttleworth became the first South
+        African to travel to space as a space tourist.
+      </p>
+    </article>
   </div>
 </body>
 </html>

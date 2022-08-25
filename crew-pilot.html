@@ -16,24 +16,27 @@
   <div class="navbar-div">
     <img class= "navbar-logo" src="assets/shared/logo.svg" alt="logo">
     <hr class="navbar-bar">
-    <nav class="navbar-principal">
-      <ul>
-        <li class="li-navbar"><a class="navbar" href="index.html">00 HOME</a></li>
-        <li class="li-navbar"><a class="navbar" href="destination-moon.html">01 DESTINATION</a></li>
-        <li class="li-navbar"><a class="onsite navbar" href="#">02 CREW</a></li>
-        <li class="li-navbar"><a class="navbar" href="#">03 TECHNOLOGY</a></li>
-      </ul>
+    <label for="" class = "menu-wrap">
+      <input type="checkbox" class= "checker">
+      <img src="assets/shared/icon-hamburger.svg" alt="hamburgers" class= "open">
+      <img src="assets/shared/icon-close.svg" alt="cross" class="close">
+      <nav class= "navbar-principal">
+        <ul class = "navbar-ul">
+          <li><a class="navbar" href="index.html"><span>00</span> HOME</a></li>
+          <li><a class="navbar" href="destination-moon.html"><span>01</span> DESTINATION</a></li>
+          <li><a class="onsite navbar" href="crew-commander.html"><span>02</span> CREW</a></li>
+          <li><a class="navbar" href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+        </ul>
+      </nav>
+    </label>
   </div>
-  <div class="planet-div">
+  <div class="crew-main">
     <div class="planet-div-1">
       <h5 class="subtittle"> <span class="number">02</span> MEET YOUR CREW</h5>
-      <h4>PILOT</h4>
-      <h3>Victor Glover</h3>
-      <p class= "body-text crew-text">   Pilot on the first operational flight of the SpaceX Crew Dragon to the
-        International Space Station. Glover is a commander in the U.S. Navy where
-        he pilots an F/A-18.He was a crew member of Expedition 64, and served as a
-        station systems flight engineer.
-      </p>
+    </div>
+    <div class="crew-div-1">
+      <img src="assets/crew/image-victor-glover.png" alt="Victor Glover">
+      <hr>
     </div>
     <div class="crew-div-2">
       <ul class = "slider">
@@ -51,9 +54,15 @@
         </form>
       </ul>
     </div>
-  </div>
-  <div class="crew-div-1">
-    <img src="assets/crew/image-victor-glover.png" alt="Victor Glover">
+    <article class="article">
+      <h4>PILOT</h4>
+      <h3>Victor Glover</h3>
+      <p class= "body-text planet-text">   Pilot on the first operational flight of the SpaceX Crew Dragon to the
+        International Space Station. Glover is a commander in the U.S. Navy where
+        he pilots an F/A-18.He was a crew member of Expedition 64, and served as a
+        station systems flight engineer.
+      </p>
+    </article>
   </div>
 </body>
 </html>
